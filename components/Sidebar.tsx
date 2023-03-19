@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import GoogleLogin from "react-google-login";
+import { GoogleLogin } from "@react-oauth/google";
 
 import Discover from "./Discover";
 import SuggestedAccounts from "./SuggestedAccounts";
