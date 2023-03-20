@@ -72,7 +72,7 @@ const Upload = () => {
 
   return (
     <div className="flex w-full h-full absolute left-0 top-[60px] mb-10 pt-10 lg:pt-20 bg-[#F8F8F8] justify-center">
-      <div className="bg-white rounded-lg xl:h-[80vh] w-[80%] flex gap-6 flex-wrap justify-between items-center p-14 pt-6">
+      <div className="bg-white rounded-lg xl:h-[80vh] w-[80%] flex gap-6 flex-wrap justify-center items-center p-14 pt-6">
         <div>
           <div>
             <p className="text-2xl font-bold">Upload Video</p>
@@ -103,7 +103,7 @@ const Upload = () => {
                         </p>
                         <p className="text-xl font-semibold">Upload Video</p>
                       </div>
-                      <p className="text-gray-400 text-center mt-10 text-sm loading-10">
+                      <p className="text-gray-400 text-center mt-10 text-sm leading-10">
                         MP4 or WebM or ogg <br />
                         720x1280 or higher <br />
                         Up to 10 minutes <br />
